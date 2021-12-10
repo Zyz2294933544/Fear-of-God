@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    font-size: 62.5%;
+}
+main {
+    width: 90%;
+    margin: 10rem auto;
+    font-family: Bell MT;
+}
+article {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/fearBG.jpg) no-repeat ;
+    background-size: cover;
+}
+article>h1 {
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 500;
+}
+
+.one {
+    padding: 3rem 0;
+}
+.one>h2 {
+    padding: 2rem 0;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.one>img {
+    width: 100%;
+}
+.one>p {
+    padding: 3rem 0;
+    font-size: 1.6rem;
+}
+
+.two {
+    width: 100%;
+}
+.two>header>img {
+    width: 100%;
+}
+.two>.italy {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.two>.italy>div {
+    padding-top: .5rem;
+    width: 32%;
+}
+.two>.italy>div>img {
+    width: 100%;
+}
+.two>.italyText {
+    padding-top: .5rem;
+    font-size: 1.6rem;
+    color: rgb(114, 112, 112);
+}
+
+.three {
+    width: 100%;
+}
+.three>.threeText {
+    padding: 5rem 3rem;
+}
+.three>.threeText>h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+.three>.threeText>p {
+    font-size: 1.6rem;
+    padding-top: 5rem;
+}
+.three>.threeImg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.three>.threeImg>img {
+    width: 47%;
+}

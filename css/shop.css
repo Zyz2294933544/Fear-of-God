@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+}
+main {
+    width: 90%;
+    margin: 7rem auto;
+    font-family: Bell MT;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul>li {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 1rem 0;
+}
+ul>li>img {
+    width: 100%;
+}
+ul>li>p {
+    font-size: 1.4rem;
+    font-family: Bell MT;
+    padding: .5rem 0;
+}
+ul>li>span {
+    font-size: 1.2rem;
+    color: rgb(138, 136, 136);
+}

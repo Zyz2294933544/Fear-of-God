@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 88%;
+    margin: 10rem auto;
+}
+
+.text>p {
+    font-family: Bell MT;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    padding: 2rem 0;
+}
+
+.img,.img>img {
+    width: 100%;
+}
